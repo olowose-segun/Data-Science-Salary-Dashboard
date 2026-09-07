@@ -1,4 +1,4 @@
-# Data Science Salary Dashboard
+# 📊Data Science Salary Dashboard
 >This started as a course project, but turned into something I'm genuinely proud of. I built a Data Jobs Salary Dashboard to help job seekers check whether they're being paid fairly for their role, and along the way I learned a ton about charts, formulas, and data validation in Excel.
 
 ## 📑**Intro**
@@ -18,7 +18,7 @@ The data used for this analysis was sourced from the tutorial files provided in 
 5. What are the five highest-paying roles in the United States?
 
 
-## 📊**Data Analysis**
+## 🧮**Data Analysis**
 - Extracting & Counting Job Titles
   <img width="1116" height="571" alt="Screenshot 2026-09-05 181116" src="https://github.com/user-attachments/assets/ea0ac8bd-0009-440a-8e19-48a3396e1520" />
 
