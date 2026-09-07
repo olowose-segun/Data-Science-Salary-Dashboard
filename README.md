@@ -7,3 +7,13 @@ This one started as a course project, but turned into something I'm genuinely pr
 ## 🌐**Data Source**
 The data used for this analysis was sourced from the tutorial files provided in *Luke Barousse’s Excel for Beginners* course [here](https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main)
 
+## 🛠️**Tools Used**
+- Excel - (Data Cleaning, Charts, Formulas & Functions, Dashboard Implementation and KPI Cards)
+
+## 📊**Exploratory Data Analysis**
+1. What are the top 10 highest-paying jobs based on salary?
+2. Is data analysis still a lucrative career skill to learn, and does it rank among the top 10 highest-paying jobs?
+3. Which country offers the highest salaries for data scientists across different job schedules?
+4. What is the most popular recruiting platform in the United States?
+5. What is the distribution of data science job opportunities across different countries?
+
