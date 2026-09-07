@@ -68,6 +68,11 @@ jobs[salary_year_avg]))`
 
 - I created KPI Cards (median salary, top job platform and job counts)
   <img width="1810" height="166" alt="Screenshot 2026-09-07 014802" src="https://github.com/user-attachments/assets/c47664ed-841c-43a7-8761-664ebbc118b0" />
+- After completing the analysis and visualizations, I standardized the dashboard formatting, including colors, titles, dimensions, outlines, and other visual elements.
+
+To preserve the integrity of the analysis, I protected the worksheet and restricted editing to three validated input cells; **Job Title, Job Country, and Job Schedule Type**.
+
+
 ### This is what the final dashboard looks like
 <img width="1893" height="713" alt="Screenshot 2026-09-06 103210" src="https://github.com/user-attachments/assets/0571db17-d7ca-47a3-8f2b-05d0734c703e" />
 
