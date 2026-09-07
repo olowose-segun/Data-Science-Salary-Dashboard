@@ -30,10 +30,12 @@ The data used for this analysis was sourced from the tutorial files provided in 
   <img width="755" height="653" alt="Screenshot 2026-09-05 201706" src="https://github.com/user-attachments/assets/89acbf76-bd5d-45b6-90bf-de2f392b4361" />
 
 - Cleaning Up the Schedule Types
+<img width="283" height="136" alt="Screenshot 2026-09-07 013959" src="https://github.com/user-attachments/assets/e7008481-fa9f-4ffa-9920-9a49227e7732" />
 
   
-- Country Validation & Median Salary - I calculated the median salary per country:
-  
+- Country Validation & Median Salary
+- I calculated the median salary per country:
+  <img width="743" height="336" alt="Screenshot 2026-09-07 014134" src="https://github.com/user-attachments/assets/38cdb640-c61c-41b1-bfe6-839d6ac1f39d" />
   `=MEDIAN(IF(jobs[job_country]=A2,(jobs[salary_year_avg]<>0)*(jobs[salary_year_avg])))`
 
   Then layered in job title and schedule type so the numbers get more specific:
@@ -46,7 +48,28 @@ The data used for this analysis was sourced from the tutorial files provided in 
   (jobs[salary_year_avg])))`
   I had a few `#NUM!` errors pop up so I filtered those out and sorted by median salary:
   `=SORT(FILTER(A2:B112,ISNUMBER(B2:B112)),2,-1)`
-- I used map charts and bar charts to visualize my results
+
 - I calculated for median salary by Job Type
+<img width="648" height="164" alt="Screenshot 2026-09-07 015107" src="https://github.com/user-attachments/assets/836d5f58-ef74-4159-8809-4d924e9437fa" />
+
+- I also calculated for the top jobs platform and counts of jobs per platform and country
+  `=COUNT(
+IF(
+(jobs[job_country]=country)*
+(jobs[job_title_short]=title)*
+(ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+(jobs[job_via]=A2),
+jobs[salary_year_avg]))`
+- I used map charts and bar charts to visualize my results
+  <img width="572" height="334" alt="Screenshot 2026-09-05 222658" src="https://github.com/user-attachments/assets/f38308ff-82ab-4c10-a882-44981c09f93d" />
+<img width="526" height="331" alt="Screenshot 2026-09-05 220335" src="https://github.com/user-attachments/assets/7aeaee05-0838-48c2-bea6-dd5b82a72024" />
+<img width="601" height="342" alt="Screenshot 2026-09-05 220324" src="https://github.com/user-attachments/assets/9ac0da32-3d6c-4c52-b92d-a3424f2aceea" />
+
+- I created KPI Cards (median salary, top job platform and job counts)
+  <img width="1810" height="166" alt="Screenshot 2026-09-07 014802" src="https://github.com/user-attachments/assets/c47664ed-841c-43a7-8761-664ebbc118b0" />
 
 
+## **Results & Observations**
+- The top 5 highest-paying roles in the United States: Senior Data Scientist, Senior Data Engineer, Machine Learning Engineer, Data Scientist, and Data Engineer
+- Data Analyst ranks in the top 10 highest-paid roles
+- Indeed is the top job application platform for Data Analysts, with over 6,000 job postings in the United States
