@@ -68,6 +68,8 @@ jobs[salary_year_avg]))`
 
 - I created KPI Cards (median salary, top job platform and job counts)
   <img width="1810" height="166" alt="Screenshot 2026-09-07 014802" src="https://github.com/user-attachments/assets/c47664ed-841c-43a7-8761-664ebbc118b0" />
+### This is what the final dashboard looks like
+<img width="1893" height="713" alt="Screenshot 2026-09-06 103210" src="https://github.com/user-attachments/assets/0571db17-d7ca-47a3-8f2b-05d0734c703e" />
 
 
 ## 🔖**Results & Observations**
@@ -80,4 +82,6 @@ jobs[salary_year_avg]))`
 ## 💡**Conclusion**
 - Based on the findings, data analytics continues to be a financially rewarding career path, ranking within the top 10 highest-paying skills in data science.
 
-## 💡**Limitations**
+## 📜**References and Credits**
+- This project is inspired by and credited to Luke Barousse, who was the first person I learned Excel from. His course gave me the foundation I needed to carry out this analysis and put my skills into practice. Big credit to Luke for the knowledge and guidance. You can check out his Excel course [here](https://www.youtube.com/watch?v=pCJ15nGFgVg)
+
