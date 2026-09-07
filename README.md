@@ -15,7 +15,8 @@ The data used for this analysis was sourced from the tutorial files provided in 
 2. Is data analysis still a lucrative career skill to learn, and does it rank among the top 10 highest-paying jobs?
 3. Which country offers the highest salaries for data scientists across different job schedules?
 4. What is the most popular recruiting platform in the United States?
-5. What is the distribution of data science job opportunities across different countries?
+5. What are the five highest-paying roles in the United States?
+
 
 ## 📊**Data Analysis**
 - Extracting & Counting Job Titles
@@ -69,7 +70,14 @@ jobs[salary_year_avg]))`
   <img width="1810" height="166" alt="Screenshot 2026-09-07 014802" src="https://github.com/user-attachments/assets/c47664ed-841c-43a7-8761-664ebbc118b0" />
 
 
-## **Results & Observations**
-- The top 5 highest-paying roles in the United States: Senior Data Scientist, Senior Data Engineer, Machine Learning Engineer, Data Scientist, and Data Engineer
-- Data Analyst ranks in the top 10 highest-paid roles
-- Indeed is the top job application platform for Data Analysts, with over 6,000 job postings in the United States
+## 🔖**Results & Observations**
+- The following are the top 10 highest-paying positions; business analyst, cloud engineer, data analyst, data engineer, data scientist, machine learning engineer, senior data analyst, senior data engineer, senior data scientist and software engineer.
+- Yes, data analysis is a lucrative career skill, as it ranks among the top 10 highest-paid roles.
+- The United States is the highest-paying country for Data Scientists across all work schedules.
+- ***Indeed*** is the top job application platform for Data Analysts, with over 6,000 job postings in the United States.
+- The top 5 highest-paying roles in the United States are; Senior Data Scientist, Senior Data Engineer, Machine Learning Engineer, Data Scientist, and Data Engineer.
+
+## 💡**Conclusion**
+- Based on the findings, data analytics continues to be a financially rewarding career path, ranking within the top 10 highest-paying skills in data science.
+
+## 💡**Limitations**
