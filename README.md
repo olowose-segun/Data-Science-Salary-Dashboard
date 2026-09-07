@@ -82,7 +82,10 @@ jobs[salary_year_avg]))`
  <img width="572" height="334" alt="Screenshot 2026-09-05 222658" src="https://github.com/user-attachments/assets/f38308ff-82ab-4c10-a882-44981c09f93d" />
 
   
-<img width="526" height="331" alt="Screenshot 2026-09-05 220335" src="https://github.com/user-attachments/assets/7aeaee05-0838-48c2-bea6-dd5b82a72024" /> <img width="601" height="342" alt="Screenshot 2026-09-05 220324" src="https://github.com/user-attachments/assets/9ac0da32-3d6c-4c52-b92d-a3424f2aceea" />
+<img width="526" height="331" alt="Screenshot 2026-09-05 220335" src="https://github.com/user-attachments/assets/7aeaee05-0838-48c2-bea6-dd5b82a72024" /> 
+
+
+<img width="601" height="342" alt="Screenshot 2026-09-05 220324" src="https://github.com/user-attachments/assets/9ac0da32-3d6c-4c52-b92d-a3424f2aceea" />
 
 
 - I created KPI Cards (median salary, top job platform and job counts)
