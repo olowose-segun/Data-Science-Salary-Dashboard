@@ -19,10 +19,19 @@ The data used for this analysis was sourced from the tutorial files provided in 
 
 ## 📊**Data Analysis**
 - Extracting & Counting Job Titles
-  
+  <img width="1116" height="571" alt="Screenshot 2026-09-05 181116" src="https://github.com/user-attachments/assets/ea0ac8bd-0009-440a-8e19-48a3396e1520" />
+
+
 - Calculating Median Salary per Job Title
+  <img width="1119" height="556" alt="Screenshot 2026-09-05 182921" src="https://github.com/user-attachments/assets/59a376b5-2bf0-48e6-93a5-7412033173a9" />
+
+
 - Pulling the Country List
+  <img width="755" height="653" alt="Screenshot 2026-09-05 201706" src="https://github.com/user-attachments/assets/89acbf76-bd5d-45b6-90bf-de2f392b4361" />
+
 - Cleaning Up the Schedule Types
+
+  
 - Country Validation & Median Salary - I calculated the median salary per country:
   
   `=MEDIAN(IF(jobs[job_country]=A2,(jobs[salary_year_avg]<>0)*(jobs[salary_year_avg])))`
