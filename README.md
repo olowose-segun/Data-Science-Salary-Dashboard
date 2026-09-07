@@ -17,3 +17,27 @@ The data used for this analysis was sourced from the tutorial files provided in 
 4. What is the most popular recruiting platform in the United States?
 5. What is the distribution of data science job opportunities across different countries?
 
+## 📊**Data Analysis**
+- Extracting & Counting Job Titles
+  
+- Calculating Median Salary per Job Title
+- Pulling the Country List
+- Cleaning Up the Schedule Types
+- Country Validation & Median Salary - I calculated the median salary per country:
+  
+  `=MEDIAN(IF(jobs[job_country]=A2,(jobs[salary_year_avg]<>0)*(jobs[salary_year_avg])))`
+
+  Then layered in job title and schedule type so the numbers get more specific:
+
+  `=MEDIAN(
+  IF(
+  (jobs[job_country]=A2)*(jobs[salary_year_avg]<>0)*
+  (jobs[job_title_short]=title)*
+  (ISNUMBER(SEARCH(type,jobs[job_schedule_type]))),
+  (jobs[salary_year_avg])))`
+  I had a few `#NUM!` errors pop up so I filtered those out and sorted by median salary:
+  `=SORT(FILTER(A2:B112,ISNUMBER(B2:B112)),2,-1)`
+- I used map charts and bar charts to visualize my results
+- I calculated for median salary by Job Type
+
+
