@@ -79,7 +79,7 @@ jobs[salary_year_avg]))`
 
 
 - I used map charts and bar charts to visualize my results
-  <img width="572" height="334" alt="Screenshot 2026-09-05 222658" src="https://github.com/user-attachments/assets/f38308ff-82ab-4c10-a882-44981c09f93d" />
+ <img width="572" height="334" alt="Screenshot 2026-09-05 222658" src="https://github.com/user-attachments/assets/f38308ff-82ab-4c10-a882-44981c09f93d" />
 
   
 <img width="526" height="331" alt="Screenshot 2026-09-05 220335" src="https://github.com/user-attachments/assets/7aeaee05-0838-48c2-bea6-dd5b82a72024" />
